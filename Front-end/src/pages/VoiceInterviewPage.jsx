@@ -3479,6 +3479,7 @@ export default function VoiceInterviewPage() {
             </button>
           </div>
 
+
           {/* Progress dots — only show first 30 to avoid overflow */}
           <div className="flex items-center justify-center gap-1.5 flex-wrap">
             {questions.slice(0, 30).map((_, i) => (
